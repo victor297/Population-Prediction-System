@@ -12,8 +12,8 @@ from numerize import numerize
 st. set_page_config(layout="wide")
 
 # IMPORT DATASETS
-countries_pop = pd.read_csv(r'C:\Users\91939\OneDrive\Desktop\_P4\Countries_Population_final.csv')
-countries_name= pd.read_csv(r'C:\Users\91939\OneDrive\Desktop\_P4\Countries_names.csv')
+countries_pop = pd.read_csv(r'datasets/Countries_Population_final.csv')
+countries_name= pd.read_csv(r'datasets/Countries_names.csv')
 
 # DASHBOARD TITLE
 col1, col2,col3 = st.columns([2,6,2])
@@ -102,8 +102,3 @@ with col2:
                                 ))
         st.plotly_chart(fig1)
         st.write('The above plot shows the population of a country from 1960 to 2021, star represents the predicted population for the given year')
-
-
-
-
-
