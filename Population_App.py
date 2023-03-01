@@ -68,8 +68,8 @@ with col1:
             # #st.write("RMSE of test set is {}".format(rmse_test))
             # st.write("TEST SET ACCURACY {}".format(r2_test))
             # st.write("-------------------------------------------")
-            st.write("#### :green[MODEL USED: ] POLYNOMIAL REGRESSION")
-            st.write('#### :green[MODEL ACCURACY: ] '+str(int(r2_test*100))+'%')  
+            st.write("#### :green[ALGORITHM: ] POLYNOMIAL REGRESSION")
+            st.write('#### :green[ ACCURACY: ] '+str(int(r2_test*100))+'%')  
             return output
 
         pred= create_polynomial_regression_model(2,int(year))
