@@ -32,7 +32,7 @@ with col1:
         'PLEASE SELECT ANY COUNTRY',
         # (sorted(countries_name['Country_Name'])
 (sorted(nigeria_only['Country_Name']))
-        ))
+        )
     year = st.text_input('PLEASE ENTER YEAR', '2030')
     if year.isnumeric():        
         # Divide Independent and Dependent features
