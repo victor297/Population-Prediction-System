@@ -21,7 +21,7 @@ col1, col2,col3 = st.columns([2,6,2])
 with col1:
     pass
 with col2:
-    st.info('# :blue[NiGERIA POPULATION PREDICTION SYSTEM]')
+    st.title('# :blue[NiGERIA POPULATION PREDICTION SYSTEM]')
 with col3:
     pass
 #mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ML MODEL: POLYNOMIAL REGRESSION mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
