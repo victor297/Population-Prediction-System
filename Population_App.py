@@ -18,8 +18,8 @@ nigeria_only = countries_name[countries_name['Country_Name'] == 'Nigeria']
 
 # DASHBOARD TITLE
 col1, col2,col3 = st.columns([1,7,2])
-    st.title(':blue[NiGERIA POPULATION PREDICTION SYSTEM]')
-    st.subheader('1. Garuba Habeeb Opeyemi 20/47CS/01298 2. Zubair Omotolani Akanni 20/47XCS/00230 3. Musa Yeketi Ayinla 20/47XCS/00227')
+st.title(':blue[NiGERIA POPULATION PREDICTION SYSTEM]')
+st.subheader('1. Garuba Habeeb Opeyemi 20/47CS/01298 2. Zubair Omotolani Akanni 20/47XCS/00230 3. Musa Yeketi Ayinla 20/47XCS/00227')
 #mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ML MODEL: Linear REGRESSION mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 col1, col2 = st.columns(2)
 with col1:
