@@ -14,6 +14,7 @@ st. set_page_config(layout="wide")
 # IMPORT DATASETS
 countries_pop = pd.read_csv(r'datasets/Countries_Population_final.csv')
 countries_name= pd.read_csv(r'datasets/Countries_names.csv')
+nigeria_only = countries_name[countries_name['Country_Name'] == 'Nigeria']
 
 # DASHBOARD TITLE
 col1, col2,col3 = st.columns([2,6,2])
@@ -29,7 +30,9 @@ with col1:
     # USER INPUTS FOR PREDECTION
     option = st.selectbox(
         'PLEASE SELECT ANY COUNTRY',
-        (sorted(countries_name['Country_Name'])))
+        # (sorted(countries_name['Country_Name'])
+(sorted(nigeria_only['Country_Name']))
+        ))
     year = st.text_input('PLEASE ENTER YEAR', '2030')
     if year.isnumeric():        
         # Divide Independent and Dependent features
