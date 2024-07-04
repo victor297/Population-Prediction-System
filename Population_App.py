@@ -17,14 +17,14 @@ countries_name= pd.read_csv(r'datasets/Countries_names.csv')
 nigeria_only = countries_name[countries_name['Country_Name'] == 'Nigeria']
 
 # DASHBOARD TITLE
-col1, col2,col3 = st.columns([2,6,2])
+col1, col2,col3 = st.columns([1,8,1])
 with col1:
     pass
 with col2:
-    st.title('# :blue[NiGERIA POPULATION PREDICTION SYSTEM]')
+    st.title(':blue[NiGERIA POPULATION PREDICTION SYSTEM]')
 with col3:
     pass
-#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ML MODEL: POLYNOMIAL REGRESSION mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ML MODEL: Linear REGRESSION mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 col1, col2 = st.columns(2)
 with col1:
     # USER INPUTS FOR PREDECTION
