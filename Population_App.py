@@ -18,7 +18,6 @@ nigeria_only = countries_name[countries_name['Country_Name'] == 'Nigeria']
 
 # DASHBOARD TITLE
 col1, col2,col3 = st.columns([1,7,2])
-t
 st.markdown('<div class="centered">', unsafe_allow_html=True)
 st.title(':blue[NIGERIA POPULATION PREDICTION SYSTEM]')
 st.write('1. Garuba Habeeb Opeyemi 20/47CS/01298')
