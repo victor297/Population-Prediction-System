@@ -20,7 +20,7 @@ col1, col2,col3 = st.columns([2,6,2])
 with col1:
     pass
 with col2:
-    st.info('# :blue[POPULATION PREDICTION SYSTEM]')
+    st.info('# :blue[NiGERIA POPULATION PREDICTION SYSTEM]')
 with col3:
     pass
 #mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ML MODEL: POLYNOMIAL REGRESSION mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
@@ -68,7 +68,7 @@ with col1:
             # #st.write("RMSE of test set is {}".format(rmse_test))
             # st.write("TEST SET ACCURACY {}".format(r2_test))
             # st.write("-------------------------------------------")
-            st.write("#### :green[ALGORITHM: ] POLYNOMIAL REGRESSION")
+            st.write("#### :green[ALGORITHM: ] LINEAR REGRESSION")
             st.write('#### :green[ ACCURACY: ] '+str(int(r2_test*100))+'%')  
             return output
 
