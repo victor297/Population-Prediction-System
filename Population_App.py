@@ -18,23 +18,7 @@ nigeria_only = countries_name[countries_name['Country_Name'] == 'Nigeria']
 
 # DASHBOARD TITLE
 col1, col2,col3 = st.columns([1,7,2])
-# Custom CSS for centering content
-center_css = """
-<style>
-.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-</style>
-"""
-
-# Insert custom CSS
-st.markdown(center_css, unsafe_allow_html=True)
-
-# Center the content
+t
 st.markdown('<div class="centered">', unsafe_allow_html=True)
 st.title(':blue[NIGERIA POPULATION PREDICTION SYSTEM]')
 st.write('1. Garuba Habeeb Opeyemi 20/47CS/01298')
